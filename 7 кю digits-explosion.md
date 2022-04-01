@@ -1,11 +1,11 @@
 Given a string made of digits [0-9], return a string where each digit is repeated a number of times equals to its value.
 
-##Examples
+Examples
 ```
 explode("312"); // => "333122"
 explode("102269"); // => "12222666666999999999"
 ```
-##My solution:
+My solution:
 ```
 function explode(s) {
   return s.split('').map(d=>{
@@ -17,7 +17,7 @@ function explode(s) {
   }).join('')
 }
 ```
-##Explanation
+Explanation
 
 First I splitted the first string into an array and mapped it, then I made a variable "y" that contained an empty string.
 ```
